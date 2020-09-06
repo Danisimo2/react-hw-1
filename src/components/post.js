@@ -6,7 +6,7 @@ const Post = (props) =>{
 			<div className="post">
 				<div className="user__info">
 					<div>
-					  <img className="avatar" src={props.author.photo} />
+					  <img className="avatar" src={props.author.photo} alt="author" />
 					</div>
 					<div className="profile__info">
 					  <p className="name">{props.author.name}</p> 
@@ -17,7 +17,7 @@ const Post = (props) =>{
 				<div className="post__info">
 					<p className="post_content">{props.content}</p>
 					<div className="post_image">
-					  <img src={props.image} />
+					  <img src={props.image} alt="content"/>
 					</div>
 				</div>
 			</div>
